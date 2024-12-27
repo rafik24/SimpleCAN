@@ -1,0 +1,28 @@
+{
+  "name": "SimpleCAN",
+  "keywords": "can, canbus, automotive, stm32, esp32, embedded",
+  "description": "A simple and efficient CAN bus library for embedded systems. SimpleCAN supports ✔ STM32, ✔ ESP32, ✔ Arduino framework, ✔ PlatformIO, ✔ automatic message handling, ✔ filtering, and more. Perfect for automotive and industrial applications.",
+  "homepage": "https://github.com/owennewo/SimpleCAN",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owennewo/SimpleCAN.git"
+  },
+  "version": "1.0.0",
+  "authors": {
+    "name": "Owen Williams",
+    "url": "https://github.com/owennewo"
+  },
+  "export": {
+    "include": ["src", "examples", "LICENSE", "README.md"]
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32",
+    "ststm32"
+  ],
+  "build": {
+    "libArchive": false
+  }
+}
