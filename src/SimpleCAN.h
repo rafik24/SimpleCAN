@@ -2,7 +2,7 @@
 #include "esp/twai/CAN.h"
 #elif defined(ARDUINO_ARCH_STM32)
     #if defined(STM32G4xx) || defined(STM32H7xx) || defined(STM32L5xx)
-        #ifndef HAL_FDCAN_MODULE_ENABLED
+        #if !defined(HAL_FDCAN_MODULE_ENABLED)
             #define HAL_FDCAN_MODULE_ENABLED
         #endif
         #include "stm/fdcan/CAN.h"
