@@ -1,4 +1,4 @@
-#if defined(HAL_FDCAN_MODULE_ENABLED)
+#if defined(ARDUINO_ARCH_STM32)
 
 #include "CAN.h"
 
