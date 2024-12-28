@@ -23,7 +23,7 @@ public:
 
     int write(CanMsg const &msg) override;
     CanMsg read() override;
-    uint32_t available() override;
+    size_t available() override;  // Changed from uint32_t to size_t
 
     static void _messageReceive();
     static void (*receiveCallback)(CanMsg *rxMessage);
